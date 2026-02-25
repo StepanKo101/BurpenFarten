@@ -2,3 +2,8 @@ name = "BurpenFarten"
 author = "StepanKo101"
 prefix = "BF"
 mainprefix = "z"
+[version]
+major = 0
+minor = 1
+patch = 0
+build = 0
