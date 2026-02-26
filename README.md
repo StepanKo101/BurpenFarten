@@ -1,6 +1,6 @@
 This projects aims to grant players the ability to fart and burp. 
 ## Implemented features
-- Burping via vanilla action
+- Farting via vanilla action
 ## Planned features
 - Allow players to fart or burp via ACE3 self-interaction
 - Allow players to fart or burp with press of a button 
