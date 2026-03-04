@@ -1,3 +1,6 @@
+// legacy code for testing purposes, not used in the final version of the mod
+
+/*
 player addAction [
     "Burpen",
     {
@@ -15,3 +18,4 @@ player addAction [
     "",
     ""
 ];
+*/

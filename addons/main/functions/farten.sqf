@@ -1,3 +1,6 @@
+// legacy code for testing purposes, not used in the final version of the mod
+
+/*
 player addAction [
     "Farten",
     {
@@ -16,7 +19,6 @@ player addAction [
     ""
 ];
 
-/*
 player addAction [
     "Make dummy fart",
     {
