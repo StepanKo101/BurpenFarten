@@ -6,7 +6,7 @@ class CfgPatches
         author = "StepanKo101";
         url = "";
         
-        requiredVersion = 0.1;
+        requiredVersion = 0.50;
         requiredAddons[] = {};
         
         units[] = {};
@@ -51,17 +51,30 @@ class CfgFunctions
     {
         class Main // Category
         {
-            class farten { // fucntionName
+            class farten { // functionName | This class adds vanilla action
                 file = "\z\bf\addons\main\functions\farten.sqf"; // the script/function
                 preInit = 0;
                 postInit = 1;
             };
 
-            class burpen { // fucntionName
+            class burpen { // functionName | This class adds vanilla action
                 file = "\z\bf\addons\main\functions\burpen.sqf"; // the script/function
                 preInit = 0;
                 postInit = 1; 
+            };
+
+            class fartenKey { // functionName | This class adds keybind
+                file = "\z\bf\addons\main\functions\fartenKey.sqf"; // the script/function
+                preInit = 0;
+                postInit = 1;
+            };
+
+            class burpenKey { // functionName | This class adds keybind
+                file = "\z\bf\addons\main\functions\burpenKey.sqf"; // the script/function
+                preInit = 0;
+                postInit = 1;
+            };
+
         };
     };
-};
 };

@@ -16,6 +16,7 @@ player addAction [
     ""
 ];
 
+/*
 player addAction [
     "Make dummy fart",
     {
@@ -32,4 +33,5 @@ player addAction [
     false,
     "",
     ""
-];
+]; // for testing purposes, makes a dummy fart in farttest scenario
+*/
