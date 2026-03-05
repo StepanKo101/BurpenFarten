@@ -51,18 +51,6 @@ class CfgFunctions
     {
         class Main // Category
         {
-            class farten { // functionName | This class adds vanilla action
-                file = "\z\bf\addons\main\functions\farten.sqf"; // the script/function
-                preInit = 0;
-                postInit = 1;
-            };
-
-            class burpen { // functionName | This class adds vanilla action
-                file = "\z\bf\addons\main\functions\burpen.sqf"; // the script/function
-                preInit = 0;
-                postInit = 1; 
-            };
-
             class fartenKey { // functionName | This class adds keybind
                 file = "\z\bf\addons\main\functions\fartenKey.sqf"; // the script/function
                 preInit = 0;
@@ -73,6 +61,18 @@ class CfgFunctions
                 file = "\z\bf\addons\main\functions\burpenKey.sqf"; // the script/function
                 preInit = 0;
                 postInit = 1;
+            };
+
+            class farter { // functionName 
+                file = "\z\bf\addons\main\functions\farter.sqf"; // the script/function
+                preInit = 0;
+                postInit = 0;
+            };
+
+            class burper { // functionName 
+                file = "\z\bf\addons\main\functions\burper.sqf"; // the script/function
+                preInit = 0;
+                postInit = 0;
             };
 
         };
