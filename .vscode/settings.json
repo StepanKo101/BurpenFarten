@@ -1,0 +1,4 @@
+{
+    "terminal.integrated.allowInUntrustedWorkspace": false,
+    "terminal.integrated.splitCwd": "workspaceRoot"
+}
