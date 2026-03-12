@@ -8,7 +8,7 @@ This projects aims to grant players the ability to fart and burp.
 - ~~Settings to toggle vanilla action on\off~~
 - ~~Settings to toggle ACE3 self-interaction on\off~~
 - ~~Settings to bind keys for burp or fart action~~
-- Ability cooldown
+- ~~Ability cooldown~~
 - Some form of gameplay applicability
 - Tie sounds to events?  
 - More cool fun sounds
