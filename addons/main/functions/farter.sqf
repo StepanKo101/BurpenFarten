@@ -4,13 +4,24 @@ params ["_farter"];
 
 _gas = _farter getVariable ["gas", 0];
 _fart = "";
+_lang = language;
 //systemChat format ["GASSINESS IS AT LEVEL: %1", _gas];
 
 if (_gas <= 1.01) then {
-	_fart = selectRandom ["fail1", "fail2", "fail3"];
+	_fart = selectRandom ["fail2"]; //2 are anger noise
 		if (local _farter) then {
-			systemChat "You are not gassy enough to fart! Wait a bit longer.";
+			if (_lang == "Russian") then {
+				systemChat "Мне сейчас нечем пёрнуть!";
+			} else {
+				systemChat "I don't have enough gas to fart!";
+			};
 	};
+	_gasBuildup = selectRandom [0.01, 0.02, 0.03, 0.01, 0.02, 0.03, 0.01, 0.02, 0.03, 0.01, 0.02, 0.03, 10];
+	// applying gas buildup to player variable
+	_currentGas = _farter getVariable ["gas", 0];
+	_newGas = _currentGas + _gasBuildup;
+	_farter setVariable ["gas", _newGas, false];
+	// systemChat format ["GASSINESS IS AT LEVEL: %1", _newGas];
 };
 
 if (_gas > 1 && _gas < 5) then {

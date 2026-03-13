@@ -36,8 +36,25 @@ workshop = [
 
 [hemtt.launch.ace]
 
-estends = "cba"
+extends = "cba"
 
 workshop = [
     "463939057", # ACE3's Workshop ID
+]
+
+[hemtt.launch.au]
+
+extends = "ace"
+
+workshop = [
+    "3020755032", # Antistasi Ultimate's Workshop ID
+    "1779063631", # Zeus Enhanced's Workshop ID
+]
+
+[hemtt.launch.au_tem]
+
+extends = "au"
+
+workshop = [
+    "1252091296", # Tembelan Island's Workshop ID
 ]
