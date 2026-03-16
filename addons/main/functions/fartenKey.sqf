@@ -5,8 +5,7 @@
     "farten_key",
     "Farten",
     {
-        _fartenSource = player;
-        [_fartenSource] remoteExec ["BF_fnc_farter", 0];
+        player call BF_fnc_farter;
     },
     {},
     [0x21, [false, false, false]]  // 0x21 = F

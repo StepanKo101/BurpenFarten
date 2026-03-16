@@ -5,11 +5,7 @@
     "burpen_key",
     "Burpen",
     {
-        // systemChat "Burpen keybind activated";
-        _burperSource = player;
-        [_burperSource] remoteExec ["BF_fnc_burper", 0];
-        //waitUntil { !isNull player && !isNull (findDisplay 46) };  // ← Wait here until player exists
-        //[player] execVM "\z\bf\addons\main\functions\burper.sqf";
+        [player] call BF_fnc_burper;
     },
     {},
     [0x30, [false, false, false]]  // 0x30 = B 
