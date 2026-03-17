@@ -35,7 +35,7 @@ _gasHandle = [
 		_currentGas = player getVariable ["gas", 0];
 		_newGas = _currentGas + _gasBuildup;
 		player setVariable ["gas", _newGas, false];
-		systemChat format ["GASSINESS IS AT LEVEL: %1", _newGas];
+		//systemChat format ["GASSINESS IS AT LEVEL: %1", _newGas];
 		    // Auto-burp when gas gets too high
 		if (_newGas > 14 && gasAdvice == 0) then {
 			_lang = language;

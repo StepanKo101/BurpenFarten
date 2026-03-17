@@ -5,7 +5,7 @@
     "farten_key",
     "Farten",
     {
-        player call BF_fnc_farter;
+        [player] call BF_fnc_farter;
     },
     {},
     [0x21, [false, false, false]]  // 0x21 = F

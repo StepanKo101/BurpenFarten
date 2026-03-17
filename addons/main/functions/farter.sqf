@@ -1,7 +1,7 @@
 //systemChat "farter.sqf script starts";
 //systemChat format ["farter.sqf called from: %1", diag_stacktrace apply {_x select 3}];
 
-_fartEmmiter = "Land_HelipadEmpty_F" createVehicleLocal [0,0,0];
+_fartEmmiter = "Land_HelipadEmpty_F" createVehicle [0,0,0];
 _fartEmmiter attachTo [player, [0,0,0]];
 
 _gas = player getVariable ["gas", 0];
@@ -55,7 +55,7 @@ if (_gas >= 8) then {
 
 //_farting = player say3D _fart;
 
-[_soundSourceFart, _fart] remoteExec ["say3D", 0]
+[_soundSourceFart, _fart] remoteExec ["say3D", 0];
 
 //waitUntil {isNull _farting};
 //systemChat format ["GASSINESS IS AT LEVEL: %1", _gas];
